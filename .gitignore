@@ -7,6 +7,13 @@
 .env.test.local
 .env.production.local
 
+
+# Imagenes
+uploads/
+!uploads/
+uploads/*.jpg
+uploads/*.png
+uploads/*.jpeg
 # Logs
 npm-debug.log*
 yarn-debug.log*
