@@ -50,9 +50,9 @@ bot.command('advancerandom', (ctx) => {
 
 })
 
-// bot.on('text', (ctx) =>{
-//     ctx.reply(ctx.update.message.text)
-// })
+bot.on('text', (ctx) =>{
+    ctx.reply(ctx.update.message.text)
+})
 
 bot.on('photo', (ctx) => {
     console.log(ctx)
